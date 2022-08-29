@@ -1,4 +1,4 @@
-package com.spyeic.modname.forge;
+package group.modid.forge;
 
 public class ForgeEntryPoint {
 }
