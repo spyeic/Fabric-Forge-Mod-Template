@@ -1,26 +1,24 @@
 modLoader = "javafml"
 loaderVersion = "[40,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "${license}"
 
 [[mods]]
-modId = "modid"
+modId = "${modid}"
 version = "${version}"
-displayName = "Mod Name"
-authors = "Me!"
-description = '''
-This is an example description! Tell everyone what your mod is about!
-'''
+displayName = "${name}"
+authors = "${authors}"
+description = "${description}"
 #logoFile = ""
 
-[[dependencies.modid]]
+[[dependencies.${modid}]]
 modId = "forge"
 mandatory = true
 versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.modid]]
+[[dependencies.${modid}]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"

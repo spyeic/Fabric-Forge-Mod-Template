@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "modname",
+  "id": "${modid}",
   "version": "${version}",
-  "name": "Mod Name",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "${name}",
+  "description": "${description}",
   "authors": [
-    "Me!"
+    "${authors}"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-  "license": "Insert License Here",
+  "license": "${license}",
   "icon": "assets/modid/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      ""
+      "com.spyeic.modid.fabric.FabricEntryPoint"
     ]
   },
   "mixins": [

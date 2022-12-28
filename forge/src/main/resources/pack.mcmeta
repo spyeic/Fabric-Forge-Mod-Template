@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "modid",
+    "description": "${modid}",
     "pack_format": 8
   }
 }

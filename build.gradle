@@ -23,6 +23,15 @@ subprojects {
     }
 }
 
+project.ext.replaceMap = [
+        "modid": rootProject.archives_base_name,
+        "version": rootProject.mod_version,
+        "name": rootProject.mod_name,
+        "description": rootProject.mod_description,
+        "authors": rootProject.mod_authors,
+        "license": rootProject.mod_license,
+]
+
 allprojects {
     apply plugin: "java"
     apply plugin: "architectury-plugin"

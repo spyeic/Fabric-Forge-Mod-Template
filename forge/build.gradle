@@ -35,10 +35,10 @@ dependencies {
 }
 
 processResources {
-    inputs.property "version", project.version
+    inputs.properties project.replaceMap
 
-    filesMatching("META-INF/mods.toml") {
-        expand "version": project.version
+    filesMatching(["META-INF/mods.toml", "pack.mcmeta"]) {
+        expand project.replaceMap
     }
 }
 
