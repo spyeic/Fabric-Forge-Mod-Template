@@ -1,4 +1,10 @@
 package group.modid.fabric;
 
-public class FabricEntryPoint {
+import net.fabricmc.api.ModInitializer;
+
+public class FabricEntryPoint implements ModInitializer {
+    @Override
+    public void onInitialize() {
+
+    }
 }
