@@ -1,4 +1,4 @@
-package com.spyeic.modname.fabric;
+package com.spyeic.modid.fabric;
 
 public class FabricEntryPoint {
 }
